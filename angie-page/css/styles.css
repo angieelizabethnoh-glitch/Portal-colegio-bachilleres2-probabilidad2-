@@ -1,0 +1,98 @@
+.fondo {
+  background-image: url("./Imagenes/milagro-fondo.jfif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.component {
+  color: rgb(255, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.993),
+    rgba(58, 57, 57, 0.993)
+  );
+  background-size: contain;
+  border: var(--bs-black-200);
+  border-radius: 0.25rem;
+  width: calc(100% - 300px);
+  padding: 10px 80px 0.1px 0px;
+  margin: 0 80px 0 150px;
+  position: fixed;
+  top: 20px;
+  z-index: 9999;
+}
+.titulin {
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 10px rgb(255, 0, 0),
+    0 0 30px rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: fit-content;
+  padding: 10px 0px 0.1px 0px;
+  margin: 0 0 0 160px;
+}
+.component a {
+  color: #ffd700;
+  font-size: large;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 1s;
+}
+.component a:hover {
+  color: #ffa600;
+  text-shadow: 0 0 20px rgb(255, 123, 0);
+}
+.milagrito {
+  color: #ff8800;
+  font-size: x-large;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow:
+    0 0 20px rgb(238, 255, 0),
+    0 0 30px rgb(255, 0, 0);
+}
+.card {
+  background-color: rgba(49, 243, 233, 0.863);
+  border: none;
+  color: rgba(49, 243, 233, 0.863);
+  padding: 0;
+}
+.card-img-top {
+  background-image: url("./../Imagenes/milagro-fondo.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.card-body {
+  background: linear-gradient(180deg, rgba(0, 255, 213), rgb(0, 102, 255));
+  background-color: rgb(0, 255, 213);
+  color: rgb(0, 255, 242);
+  padding: 20px;
+}
+.card-body p {
+  color: #ff0000;
+  font-size: large;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 1.5s;
+}
+.card-body p:hover {
+  color: #000000;
+  text-shadow: 0 0 1px rgb(255, 123, 0);
+}
+.card-body ul {
+  color: #ff0000;
+  font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 1.5s;
+}
+.card-body ul:hover {
+  color: #000000;
+  text-shadow: 0 0 1px rgb(255, 123, 0);
+}
+section {
+  padding: 20px;
+}
