@@ -1,16 +1,12 @@
 .fondo {
-  background-image: url("./Imagenes/milagro-fondo.jfif");
+  background-image: url("../Imagenes/fondo.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .component {
-  color: rgb(255, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.993),
-    rgba(58, 57, 57, 0.993)
-  );
+  color: rgb(195, 0, 255);
+  background-color: rgb(48, 3, 107);
   background-size: contain;
   border: var(--bs-black-200);
   border-radius: 0.25rem;
@@ -21,10 +17,10 @@
   top: 20px;
   z-index: 9999;
 }
-.titulin {
+.titulo {
   color: rgb(255, 255, 255);
   text-shadow:
-    0 0 10px rgb(255, 0, 0),
+    0 0 10px rgb(0, 68, 255),
     0 0 30px rgb(0, 0, 0);
   padding: 20px;
   border-radius: 10px;
@@ -32,66 +28,55 @@
   width: fit-content;
   padding: 10px 0px 0.1px 0px;
   margin: 0 0 0 160px;
+  font-size: large;
 }
 .component a {
-  color: #ffd700;
+  color: #cc00ff;
   font-size: large;
   text-decoration: none;
   font-weight: bold;
   transition: 1s;
 }
 .component a:hover {
-  color: #ffa600;
-  text-shadow: 0 0 20px rgb(255, 123, 0);
-}
-.milagrito {
-  color: #ff8800;
-  font-size: x-large;
-  text-decoration: none;
-  font-weight: bold;
-  text-shadow:
-    0 0 20px rgb(238, 255, 0),
-    0 0 30px rgb(255, 0, 0);
+  color: #ff00aa;
+  text-shadow: 0 0 20px rgb(255, 0, 0);
 }
 .card {
-  background-color: rgba(49, 243, 233, 0.863);
+  background-color: rgba(211, 49, 243, 0.863);
   border: none;
-  color: rgba(49, 243, 233, 0.863);
+  color: rgba(211, 49, 243, 0.863);
   padding: 0;
 }
-.card-img-top {
-  background-image: url("./../Imagenes/milagro-fondo.webp");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 .card-body {
-  background: linear-gradient(180deg, rgba(0, 255, 213), rgb(0, 102, 255));
-  background-color: rgb(0, 255, 213);
-  color: rgb(0, 255, 242);
+  background: linear-gradient(180deg, rgba(255, 174, 0, 0.9), rgb(238, 255, 0));
+  background-color: rgb(255, 174, 0);
+  color: rgb(238, 255, 0);
   padding: 20px;
 }
 .card-body p {
-  color: #ff0000;
+  color: #a200ff;
   font-size: large;
   text-decoration: none;
   font-weight: bold;
   transition: 1.5s;
 }
-.card-body p:hover {
-  color: #000000;
-  text-shadow: 0 0 1px rgb(255, 123, 0);
-}
 .card-body ul {
-  color: #ff0000;
+  color: #a200ff;
   font-size: medium;
   text-decoration: none;
   font-weight: bold;
   transition: 1.5s;
 }
-.card-body ul:hover {
-  color: #000000;
-  text-shadow: 0 0 1px rgb(255, 123, 0);
+.referencias {
+  color: #a200ff;
+  font-size: larger;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.referencias p:hover {
+  color: #ff00aa;
+  text-shadow: 0 0 20px rgb(255, 0, 0);
 }
 section {
   padding: 20px;
